@@ -16,7 +16,7 @@ Design record for the Deutsch Schreibtrainer Custom GPT. Read this before changi
 
 The routing table in Instructions matters more than it looks: it converts "maybe the model searches knowledge" into "the model knows a file exists for this and searches deliberately."
 
-### Seven knowledge files, grouped by co-use, not by taxonomy
+### Eight knowledge files, grouped by co-use, not by taxonomy
 
 | File | Retrieval trigger (what conversations pull it in) |
 |---|---|
@@ -27,6 +27,7 @@ The routing table in Instructions matters more than it looks: it converts "maybe
 | 05-error-taxonomy | specific German errors in student text |
 | 06-redemittel-text-structures | "wie schreibe ich…", phrases, letter conventions |
 | 07-example-sessions | tone/format anchoring (retrieved alongside most coaching turns) |
+| 08-vocabulary-lists | word/vocabulary questions, exercise vocabulary selection, W-code corrections |
 
 Splits and merges made against the original brief:
 
@@ -35,6 +36,7 @@ Splits and merges made against the original brief:
 - **No standalone grammar reference.** The GPT is a coach, not a textbook; the error taxonomy contains exactly the grammar needed to explain the errors students actually make, at H5 depth. A full grammar file would dilute retrieval and invite lecturing.
 - **No static exercise bank.** The brief asked for infinite generation; a bank would compete with the generator in retrieval and anchor the model on repeating stored items. The three worked examples inside 04 exist as *format* anchors, explicitly framed as such.
 - **Example sessions kept as a knowledge file** (not just repo docs) deliberately: retrieved transcripts act as few-shot demonstrations, which shape tone and formatting more reliably than any amount of instruction prose.
+- **Vocabulary lists split into their own file (08).** The A1 required inventory (~600 words from an external prep-course checklist) plus A2–C2 thematic inventories are raw reference data; embedding them in 02-cefr-levels would dilute that file's chunk density for grammar/level retrieval. 02 keeps one-line pointers, 08 owns the lists and the cumulative rule (each level = its lists + all levels below).
 
 ### One shared vocabulary: error codes
 

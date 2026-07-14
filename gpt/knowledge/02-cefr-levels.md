@@ -22,7 +22,7 @@ Reference document for Deutsch Schreibtrainer. Everything — exercises, expecte
 |---|---|---|
 | Präsens; sein/haben; Verbzweitstellung in einfachen Sätzen; W-Fragen; Ja/Nein-Fragen; Personalpronomen Nominativ; Artikel Nominativ; können/möchten/müssen; und/oder/aber | Akkusativ; trennbare Verben; Zeitangaben (am Montag, um 8 Uhr); Imperativ (Sie-Form) | Perfekt, Dativ, Nebensätze, Adjektivdeklination, Passiv, Konjunktiv |
 
-**Vocabulary:** ~600 words; concrete daily life (family, food, shopping, time, home). Expect and accept repetition.
+**Vocabulary:** ~600 words; concrete daily life (family, food, shopping, time, home). Expect and accept repetition. The required inventory is the twelve A1 theme lists in the vocabulary-lists file — draw exercise vocabulary from there and treat those words as secure.
 
 **Feedback style:** explanation language is almost never German; one correction focus per text; heavy use of patterns to copy ("Schreib: *Lieber Tom, … Viele Grüße, …*"). No grammar terminology beyond "Verb", "Frage".
 
@@ -40,7 +40,7 @@ Reference document for Deutsch Schreibtrainer. Everything — exercises, expecte
 |---|---|---|
 | Perfekt (regelmäßig + häufige unregelmäßige); Präteritum von sein/haben; Akkusativ; Dativ nach festen Verben/Präpositionen; Possessivartikel; Modalverben komplett; Komparativ; weil/dass (mit Fehlern zu rechnen); Imperativ | Nebensätze mit wenn; Wechselpräpositionen; Reflexivverben; Adjektivendungen (nur rezeptiv erwarten) | Passiv, Konjunktiv II jenseits von „ich möchte/könnte", Relativsätze, Genitiv, indirekte Rede |
 
-**Vocabulary:** ~1,300 words; daily routines, work basics, travel, health, appointments.
+**Vocabulary:** ~1,300 words; daily routines, work basics, travel, health, appointments. Inventory = full A1 checklist + the A2 themes in the vocabulary-lists file (cumulative rule).
 
 **Feedback style:** simple grammar labels OK (Dativ, Perfekt); max two focus areas; hint ladder works well from here upward; celebrate every correct subordinate clause.
 
@@ -58,7 +58,7 @@ Reference document for Deutsch Schreibtrainer. Everything — exercises, expecte
 |---|---|---|
 | Alle gängigen Nebensätze (weil, dass, wenn, obwohl, damit, um…zu); Relativsätze Nom/Akk; Konjunktiv II Höflichkeit (würde/könnte/hätte/wäre); Perfekt/Präteritum-Verteilung im Brief; Wechselpräpositionen; Adjektivdeklination (mit Restfehlern); Futur I; Verben mit Präpositionen (häufige) | Passiv Präsens/Präteritum; Genitiv; Relativsätze mit Präposition; zweiteilige Konnektoren (entweder…oder, nicht nur…sondern auch); Infinitivsätze erweitert | Konjunktiv I, Partizipialattribute, Nominalstil, Passiversatzformen |
 
-**Vocabulary:** ~2,400 words; work, education, media, health system, housing, services. Expect first register control: du vs. Sie consistently correct.
+**Vocabulary:** ~2,400 words; work, education, media, health system, housing, services (B1 themes in the vocabulary-lists file, plus everything below). Expect first register control: du vs. Sie consistently correct.
 
 **Feedback style:** full correction protocol applies; error codes useful and welcome; introduce the ✅/✅✅ distinction actively; text structure (Einleitung–Hauptteil–Schluss, Briefkonventionen) is now graded content, not a bonus.
 
@@ -76,7 +76,7 @@ Reference document for Deutsch Schreibtrainer. Everything — exercises, expecte
 |---|---|---|
 | Passiv alle Zeiten; Konjunktiv II Gegenwart + Vergangenheit; Adjektivdeklination sicher; Genitiv + Genitivpräpositionen (wegen, trotz, während); Relativsätze komplett; indirekte Fragen; Konnektoren der Argumentation (allerdings, dennoch, folglich, hingegen, einerseits…andererseits); Verben mit Präpositionen (breit) | Nominalisierung; Passiversatz (lassen sich, sind zu + Inf.); Partizipialattribute; Konjunktiv I (rezeptiv) | Erweiterte Partizipialkonstruktionen als Pflicht, gehobener Nominalstil als Pflicht |
 
-**Vocabulary:** ~4,000 words; abstract topics, work life in depth, society, environment. Collocations become a correction target („eine Entscheidung **treffen**", nicht „machen").
+**Vocabulary:** ~4,000 words; abstract topics, work life in depth, society, environment (B2 domains in the vocabulary-lists file, plus everything below). Collocations become a correction target („eine Entscheidung **treffen**", nicht „machen").
 
 **Feedback style:** naturalness feedback becomes central; precision of word choice (W-codes) matters; cohesion across paragraphs is graded; introduce ✅✅✅ alternatives regularly.
 
@@ -94,7 +94,7 @@ Reference document for Deutsch Schreibtrainer. Everything — exercises, expecte
 |---|---|---|
 | Nominalstil ↔ Verbalstil aktiv wechseln; Partizipialattribute; Konjunktiv I für indirekte Rede; Passiversatzformen; Funktionsverbgefüge (zur Verfügung stellen, in Frage kommen); subtile Konnektoren (gleichwohl, insofern, demzufolge); Modalpartikeln in informellen Texten | Stilistische Variation als bewusstes Werkzeug; Ironie/Understatement | — (alles ist verfügbar; die Frage ist Angemessenheit) |
 
-**Vocabulary:** ~8,000 words; near-full range, differentiated synonyms (behaupten/betonen/einräumen), academic verbs.
+**Vocabulary:** ~8,000 words; near-full range, differentiated synonyms (behaupten/betonen/einräumen), academic verbs — see the C1 differentiation table in the vocabulary-lists file.
 
 **Feedback style:** grammar corrections become rare and precise; the work is style, economy, and idiomaticity. Distinguish "correct but bland" from "effective". Sentence rhythm and information structure (Thema–Rhema) are legitimate feedback topics.
 
@@ -116,3 +116,4 @@ Reference document for Deutsch Schreibtrainer. Everything — exercises, expecte
 2. **Mixed-level errors:** grade against the session level. An A2 student with adjective-ending errors has no adjective-ending problem — they have vocabulary to learn instead.
 3. **Above-level curiosity:** if the student *asks* about above-level grammar, answer (Teacher moment, brief), then return to level. Curiosity outranks the inventory; unsolicited complexity does not.
 4. **Exam levels are fixed:** in Examiner mode, the exam's level overrides the session level (a DTZ simulation is graded on the A2/B1 scale regardless of the student's ambition).
+5. **Vocabulary is cumulative:** the expected inventory at any level is that level's word lists *plus all levels below* (details and per-level lists in the vocabulary-lists file). Misusing an at-or-below-level word is a priority error; imperfect use of an above-level word is never punished.

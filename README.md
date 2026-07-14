@@ -18,7 +18,7 @@ Not a translator. Not a grammar checker. Not a text generator. A coach whose goa
 ```
 gpt/
   Instructions.md                      → paste into the Builder's Instructions field (< 8,000 chars)
-  knowledge/                           → upload all 7 files as Knowledge
+  knowledge/                           → upload all 8 files as Knowledge
     01-teaching-method.md              coaching workflows, hint ladder, feedback templates
     02-cefr-levels.md                  A1–C2 profiles: grammar inventories, expectations, micro-challenges
     03-exam-guide.md                   exam formats, rubrics, original-task blueprints
@@ -26,6 +26,7 @@ gpt/
     05-error-taxonomy.md               error codes, hint phrasings, concept explanations
     06-redemittel-text-structures.md   text skeletons, phrase banks, register tables
     07-example-sessions.md             annotated model interactions (few-shot anchor + examples)
+    08-vocabulary-lists.md             per-level word inventories: A1 checklist + A2–C2 themes (cumulative)
 docs/
   architecture.md                      design decisions and their rationale — read before changing anything
   builder-setup.md                     step-by-step Builder configuration
@@ -36,7 +37,7 @@ docs/
 
 1. ChatGPT → Explore GPTs → **+ Create** → **Configure** tab
 2. Paste `gpt/Instructions.md` into Instructions; set name, description, starters from `docs/builder-setup.md`
-3. Upload the seven files in `gpt/knowledge/`
+3. Upload the eight files in `gpt/knowledge/`
 4. Disable Web Browsing, DALL·E, and Code Interpreter
 5. Run `docs/testing-checklist.md` before sharing
 

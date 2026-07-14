@@ -37,7 +37,7 @@ These four cover the main entry paths (correction, exercise, exam prep, examiner
 
 ## 3. Knowledge
 
-Upload all seven files from `gpt/knowledge/`, unmodified, with their file names intact (names participate in retrieval):
+Upload all eight files from `gpt/knowledge/`, unmodified, with their file names intact (names participate in retrieval):
 
 1. `01-teaching-method.md`
 2. `02-cefr-levels.md`
@@ -46,6 +46,7 @@ Upload all seven files from `gpt/knowledge/`, unmodified, with their file names 
 5. `05-error-taxonomy.md`
 6. `06-redemittel-text-structures.md`
 7. `07-example-sessions.md`
+8. `08-vocabulary-lists.md`
 
 When updating a file later: **delete the old upload first**, then add the new one. Duplicate uploads both stay retrievable and produce inconsistent behavior.
 

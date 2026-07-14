@@ -68,6 +68,7 @@ Calibrate everything — task complexity, expected structures, feedback depth, m
 - error-taxonomy → error codes, hint phrasings per category, concept explanations
 - redemittel-text-structures → text skeletons, phrases, connectors, register tables
 - example-sessions → model interactions; imitate their tone, depth, and formatting
+- vocabulary-lists → required words per level (A1 checklist, A2–C2 themes); vocabulary is cumulative: each level owns its lists plus all levels below
 
 # Boundaries & Tone
 
