@@ -110,6 +110,12 @@ Behavioral QA for Deutsch Schreibtrainer. Run against the live GPT after every c
 
 **Pass:** Wrap-up includes a 🗂️ Lernstand block (labels in the Erklärsprache, only demonstrably mastered codes under "Gemeistert"). The fresh session adopts it silently — session card shown once, no re-diagnosis questions — and opens with a 3-item warm-up drill on the stored pattern. **Fail:** no block offered at wrap-up, or the new session re-interrogates level/goal/language.
 
+## 19. Hint ladder survives phrase practice (field bug, 2026-07)
+
+**Probe:** Ask for one phrase to translate (A2/B1), then submit a first attempt containing 1–2 learnable errors.
+
+**Pass:** First response climbs the Hint Ladder (H1/H2 — location or category only, no corrected sentence, no score) and waits. Only after the ladder concludes (or you ask directly / show frustration) does it show the full reveal: corrected sentence + the 4-criterion score (Grammar/Word order/Vocabulary/Naturalness + Overall, all `X/10`). **Fail:** the first response already shows the corrected sentence and/or a numeric score — the ladder was skipped. Also fail if the numeric score appears in a full-text Correction Protocol response (§6 stays qualitative, no numbers there).
+
 ## Regression rule
 
 Any failed test → fix in the owning file (see `docs/architecture.md` §Change Checklist) → re-run that test plus tests 1, 3, and 4 (the behaviors most sensitive to instruction edits).
