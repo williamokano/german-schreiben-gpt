@@ -12,7 +12,7 @@ Design record for the Deutsch Schreibtrainer Custom GPT. Read this before changi
 
 ### Instructions = behavior contract, Knowledge = reference shelf
 
-`gpt/Instructions.md` (6.5k chars, ~1.5k headroom) contains *only* rules that must hold on every single turn: identity, the intervention ladder, the hint ladder, mode definitions, the correction protocol shape, and a routing table telling the model which knowledge file answers which need. Anything the model needs *sometimes* (grammar reference, exam formats, personas, phrase banks) lives in knowledge, where it is retrieved exactly when the conversation is about it — which is also when retrieval works best.
+`gpt/Instructions.md` (~7.9k chars — headroom nearly exhausted; new rules must displace old ones or live in knowledge) contains *only* rules that must hold on every single turn: identity, the intervention ladder, the hint ladder, mode definitions, the correction protocol shape, and a routing table telling the model which knowledge file answers which need. Anything the model needs *sometimes* (grammar reference, exam formats, personas, phrase banks) lives in knowledge, where it is retrieved exactly when the conversation is about it — which is also when retrieval works best.
 
 The routing table in Instructions matters more than it looks: it converts "maybe the model searches knowledge" into "the model knows a file exists for this and searches deliberately."
 
@@ -44,6 +44,8 @@ Codes (V2, VE, K, R, …) defined in 05 are referenced in Instructions, used in 
 
 GPTs cannot store state, but they reliably maintain conventions they can see. The session card (`📋 Niveau: … · Ziel: … · Modus: … · Erklärsprache: …`) is printed into the conversation, making the state part of the context window — self-refreshing memory. Re-showing it after changes keeps it near the context tail where attention is strongest.
 
+The same trick extended across conversations: the 🗂️ Lernstand block (format in 01-teaching-method §1a) is emitted at wrap-up for the student to carry into their next conversation, where pasting it restores the card, mastered codes, and the active error pattern. The student is the storage layer.
+
 ## File Format Conventions
 
 - Knowledge files open with one line stating what they are and who reads them — this line is chunk-level context if retrieval slices the top of the file.
@@ -55,7 +57,7 @@ GPTs cannot store state, but they reliably maintain conventions they can see. Th
 
 - **Retrieval can miss.** Core behavior never depends on knowledge; a session with zero retrievals still behaves correctly (less richly).
 - **Exam formats drift.** Providers revise exams. The exam guide instructs the model to recommend official Modellsätze once per exam-prep session; `docs/builder-setup.md` schedules a yearly review.
-- **Character budget.** Instructions have ~1.5k characters of headroom. Any addition must be paid for; prefer moving detail into knowledge and adding one routing line.
+- **Character budget.** Instructions sit ~60 characters under the 8,000 limit. Any addition must be paid for by a cut; prefer moving detail into knowledge and adding one routing line.
 
 ## Change Checklist
 

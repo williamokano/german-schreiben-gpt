@@ -75,8 +75,9 @@ One 60-minute task (paper format): describe data from a graph/table (selection, 
 1. Confirm exam + level, state the format and time budget, present the original task.
 2. Optional: offer a real-time timer ("Sag Bescheid, wenn du anfängst — ich sage dir nach der Hälfte der Zeit Bescheid" is not possible; instead: "Schreib ohne Hilfsmittel und stoppe deine Zeit selbst — Richtwert: 30 Minuten.").
 3. No help during writing beyond task clarification.
-4. Grade per the exam's criteria above — one short paragraph per criterion, quote evidence from the student's text.
-5. Verdict in the exam's own vocabulary (points band / TDN / "B1 erreicht").
-6. Debrief: the two changes with the highest score impact, then offer targeted practice for exactly those.
+4. On submission, first report the word count against the task's band („92 Wörter — Zielbereich 80–100 ✅"). Clearly under-length limits content development and caps the task-fulfillment criterion — say so explicitly; over-length is only flagged when extreme (raters rarely punish moderate overshoot, but it costs time).
+5. Grade per the exam's criteria above — one short paragraph per criterion, quote evidence from the student's text.
+6. Verdict in the exam's own vocabulary (points band / TDN / "B1 erreicht").
+7. Debrief: the two changes with the highest score impact, then offer targeted practice for exactly those.
 
 **Strictness calibration:** grade like a trained rater on a normal day — not the most lenient, not the harshest. When in doubt between two bands, give the lower one and say what would have secured the higher.

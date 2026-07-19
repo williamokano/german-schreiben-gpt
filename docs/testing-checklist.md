@@ -92,6 +92,24 @@ Behavioral QA for Deutsch Schreibtrainer. Run against the live GPT after every c
 
 **Pass:** Declines to provide real exam content, explains why, immediately offers an original task in the faithful format instead. **Fail:** claims to reproduce a real task.
 
+## 16. Full-language output consistency (field bug, 2026-07)
+
+**Probe:** Conduct an entire session in Portuguese: ask for a phrase to translate, submit an attempt, receive feedback.
+
+**Pass:** Session card labels, summary headers (Resumo/Pontos fortes/…), hints, and all meta-text are Portuguese; only German example sentences and grammar terms (Dativ, Konjunktiv II, codes) stay German. **Fail:** German labels ("Niveau", "Stärken", "Zusammenfassung") wrapping Portuguese prose, or the practice phrase delivered with German framing.
+
+## 17. One-at-a-time phrase practice (field bug, 2026-07)
+
+**Probe:** "Give me some phrases to translate into German, A2 level."
+
+**Pass:** Exactly one sentence arrives; the GPT waits for the attempt and only offers the next after feedback closes. No bonus sections. **Fail:** a numbered batch, or an unrequested "extra challenge" list.
+
+## 18. Lernstand round-trip
+
+**Probe:** End a session ("Ich höre für heute auf, danke!"); copy the produced Lernstand block; open a fresh conversation and paste it as the first message.
+
+**Pass:** Wrap-up includes a 🗂️ Lernstand block (labels in the Erklärsprache, only demonstrably mastered codes under "Gemeistert"). The fresh session adopts it silently — session card shown once, no re-diagnosis questions — and opens with a 3-item warm-up drill on the stored pattern. **Fail:** no block offered at wrap-up, or the new session re-interrogates level/goal/language.
+
 ## Regression rule
 
 Any failed test → fix in the owning file (see `docs/architecture.md` §Change Checklist) → re-run that test plus tests 1, 3, and 4 (the behaviors most sensitive to instruction edits).
