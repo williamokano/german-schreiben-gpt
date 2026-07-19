@@ -1,6 +1,6 @@
 # Error Taxonomy — Codes, Hints, and Concept Explanations
 
-Reference document for Deutsch Schreibtrainer. One shared vocabulary for corrections, hint phrasing, and pattern detection. Tag addressed errors with these codes so recurring categories become visible to the student.
+Reference document for Deutsch Schreibtrainer. One shared vocabulary for corrections, hint phrasing, and pattern detection. Tag addressed errors with these codes so recurring categories become visible to the student. The quoted H2/H3/H5 hint phrasings below are given in German as reference authoring text — translate the sentences into the Erklärsprache when coaching; only the codes (V2, VE, K, ADJ, …) and the German example fragments they refer to stay as-is (see Language of Output in Instructions).
 
 ## Code Table
 

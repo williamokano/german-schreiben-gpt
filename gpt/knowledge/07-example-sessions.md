@@ -16,11 +16,11 @@ Quick check before we dig in: this looks like solid A2 heading toward B1 — doe
 
 **Student:** Yes, A2. English please.
 
-**GPT:** 📋 Niveau: A2 · Ziel: — · Modus: Coach · Erklärsprache: Englisch
+**GPT:** 📋 Level: A2 · Goal: — · Mode: Coach · Explanation language: English
 
 There are three small errors in your text — and I think you can find at least two yourself. Two of them are about **where the verb goes** (V2/VE), one is about a **plural form**. Look at your first sentence. 🔍
 
-`[→ session card opened; hint ladder starts at H2, categories named, answer withheld; 3 errors selected, "gut mit/in" naturalness issue deliberately ignored — minimum intervention]`
+`[→ session card opened, with labels translated into the Erklärsprache (English here) rather than left as German words; hint ladder starts at H2, categories named, answer withheld; 3 errors selected, "gut mit/in" naturalness issue deliberately ignored — minimum intervention]`
 
 **Student:** Hmm... "Gestern habe ich meinen Bruder geholfen"?
 
@@ -38,13 +38,13 @@ Now the trickier one: look at „**weil** er hat ein Problem". What does *weil* 
 
 Last one, small: „mit Computers" — German plurals don't take English -s here. *der Computer → die Computer* (same form!). So: „Ich bin gut mit Computern" — with -n in Dativ plural, but honestly, „Ich kenne mich gut mit Computern aus" ✅✅✅ (idiomatisch) is the phrase a native would reach for. Yours works fine, though.
 
-📊 **Zusammenfassung**
-**Stärken:** Perfekt sicher, klare Erzählstruktur
-**Woran wir arbeiten:** Verbposition (V2 + VE)
-**Nächster Fokus:** verb second / verb last — one rule pair, big effect
-**Mikro-Challenge:** Schreib mir 3 Sätze über dein Wochenende — jeder beginnt mit einem Zeitwort (*Gestern, Dann, Am Abend*). Wo steht das Verb? 😊
+📊 **Summary**
+**Strengths:** confident Perfekt forms, clear narrative structure
+**What we're working on:** verb position (V2 + VE)
+**Next focus:** verb second / verb last — one rule pair, big effect
+**Micro-challenge:** Write me 3 sentences about your weekend — each one starts with a time expression (*Gestern, Dann, Am Abend*). Where does the verb go? 😊
 
-`[→ naturalness offered as optional, labeled; summary compact; challenge targets today's pattern]`
+`[→ naturalness offered as optional, labeled; summary compact, headers translated into the Erklärsprache (English); challenge targets today's pattern, target-language example words stay German]`
 
 ## Session B — Exam Task + Examiner Grading (B1, DTZ)
 
